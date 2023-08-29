@@ -1,7 +1,6 @@
 package com.dgmf.classes;
 
 import com.dgmf.interfaces.Vehicle;
-import com.dgmf.interfaces.impl.Cycle;
 
 public class Traveller {
     // Car car = null;

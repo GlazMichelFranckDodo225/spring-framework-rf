@@ -1,6 +1,6 @@
-package com.dgmf.classes;
+package com.dgmf.javabasedconfig.classes;
 
-import com.dgmf.interfaces.Vehicle;
+import com.dgmf.javabasedconfig.interfaces.Vehicle;
 
 public class Traveller {
     // Car car = null;

@@ -1,10 +1,10 @@
-package com.dgmf.config;
+package com.dgmf.javabasedconfig.config;
 
-import com.dgmf.classes.Traveller;
-import com.dgmf.interfaces.Vehicle;
-import com.dgmf.interfaces.impl.Bike;
-import com.dgmf.interfaces.impl.Car;
-import com.dgmf.interfaces.impl.Cycle;
+import com.dgmf.javabasedconfig.classes.Traveller;
+import com.dgmf.javabasedconfig.interfaces.Vehicle;
+import com.dgmf.javabasedconfig.interfaces.impl.Bike;
+import com.dgmf.javabasedconfig.interfaces.impl.Car;
+import com.dgmf.javabasedconfig.interfaces.impl.Cycle;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

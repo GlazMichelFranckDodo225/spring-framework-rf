@@ -1,10 +1,8 @@
-package com.dgmf;
+package com.dgmf.javabasedconfig;
 
-import com.dgmf.classes.Traveller;
-import com.dgmf.interfaces.Vehicle;
-import com.dgmf.interfaces.impl.Bike;
-import com.dgmf.interfaces.impl.Car;
-import com.dgmf.interfaces.impl.Cycle;
+import com.dgmf.javabasedconfig.classes.Traveller;
+import com.dgmf.javabasedconfig.interfaces.Vehicle;
+import com.dgmf.javabasedconfig.interfaces.impl.Cycle;
 
 public class Client {
     public static void main(String[] args) {

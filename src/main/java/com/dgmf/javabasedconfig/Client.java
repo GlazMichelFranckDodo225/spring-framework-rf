@@ -1,6 +1,6 @@
 package com.dgmf.javabasedconfig;
 
-import com.dgmf.javabasedconfig.classes.Traveller;
+import com.dgmf.javabasedconfig.classes.Traveler;
 import com.dgmf.javabasedconfig.interfaces.Vehicle;
 import com.dgmf.javabasedconfig.interfaces.impl.Cycle;
 
@@ -12,7 +12,7 @@ public class Client {
 
         // Traveller traveller = new Traveller(car);
         // Traveller traveller = new Traveller(bike);
-        Traveller traveller = new Traveller(vehicle);
+        Traveler traveller = new Traveler(vehicle);
         traveller.startJourney();
     }
 }

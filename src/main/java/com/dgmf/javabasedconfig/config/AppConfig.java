@@ -1,6 +1,6 @@
 package com.dgmf.javabasedconfig.config;
 
-import com.dgmf.javabasedconfig.classes.Traveller;
+import com.dgmf.javabasedconfig.classes.Traveler;
 import com.dgmf.javabasedconfig.interfaces.Vehicle;
 import com.dgmf.javabasedconfig.interfaces.impl.Bike;
 import com.dgmf.javabasedconfig.interfaces.impl.Car;
@@ -26,9 +26,9 @@ public class AppConfig {
     }
 
     @Bean
-    public Traveller traveller() {
+    public Traveler traveller() {
         // return new Traveller(car()); // Dependency Injection (DI)
         // return new Traveller(bike()); // Dependency Injection (DI)
-        return new Traveller(cycle()); // Dependency Injection (DI)
+        return new Traveler(cycle()); // Dependency Injection (DI)
     }
 }

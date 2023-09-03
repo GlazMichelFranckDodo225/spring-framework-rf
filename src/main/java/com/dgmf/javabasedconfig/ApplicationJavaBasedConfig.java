@@ -1,6 +1,6 @@
 package com.dgmf.javabasedconfig;
 
-import com.dgmf.javabasedconfig.classes.Traveller;
+import com.dgmf.javabasedconfig.classes.Traveler;
 import com.dgmf.javabasedconfig.config.AppConfig;
 import com.dgmf.javabasedconfig.interfaces.Vehicle;
 import com.dgmf.javabasedconfig.interfaces.impl.Bike;
@@ -28,7 +28,7 @@ public class ApplicationJavaBasedConfig {
         Vehicle cycle = applicationContext.getBean(Cycle.class);
         cycle.move();
 
-        Traveller traveller = applicationContext.getBean(Traveller.class);
+        Traveler traveller = applicationContext.getBean(Traveler.class);
         traveller.startJourney();
 
     }

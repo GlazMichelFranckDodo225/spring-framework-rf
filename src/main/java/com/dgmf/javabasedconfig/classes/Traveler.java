@@ -2,7 +2,7 @@ package com.dgmf.javabasedconfig.classes;
 
 import com.dgmf.javabasedconfig.interfaces.Vehicle;
 
-public class Traveller {
+public class Traveler {
     // Car car = null;
     // Bike bike = null;
     // Cycle cycle = null;
@@ -14,7 +14,7 @@ public class Traveller {
         this.cycle = new Cycle();
     }*/
 
-    public Traveller(Vehicle vehicle) {
+    public Traveler(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
 

@@ -21,14 +21,14 @@ public class ApplicationAnnotationBasedConfig {
                 new AnnotationConfigApplicationContext(AppConfig.class);
 
         // Retrieve Beans from Spring IoC Container
-        Bike bike = applicationContext.getBean(Bike.class);
+        /*Bike bike = applicationContext.getBean(Bike.class);
         bike.move();
 
         Car car = applicationContext.getBean(Car.class);
         car.move();
 
         Cycle cycle = applicationContext.getBean(Cycle.class);
-        cycle.move();
+        cycle.move();*/
 
         Traveler traveller = applicationContext.getBean(Traveler.class);
         traveller.startJourney();

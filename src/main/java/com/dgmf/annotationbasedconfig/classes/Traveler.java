@@ -9,8 +9,9 @@ import org.springframework.stereotype.Component;
 public class Traveler {
     private Vehicle vehicle;
 
-    @Autowired
-    public Traveler(@Qualifier("cycle") Vehicle vehicle) {
+    @Autowired // Constructor Dependency Injection
+    // public Traveler(@Qualifier("cycle") Vehicle vehicle) {
+    public Traveler(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
 

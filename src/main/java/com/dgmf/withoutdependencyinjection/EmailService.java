@@ -1,4 +1,4 @@
-package com.dgmf.withoutspringdependencyinjection;
+package com.dgmf.withoutdependencyinjection;
 
 public class EmailService {
     void sendMessage(String message) {

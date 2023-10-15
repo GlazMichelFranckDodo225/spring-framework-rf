@@ -1,4 +1,4 @@
-package com.dgmf.withoutspringdependencyinjection;
+package com.dgmf.withoutdependencyinjection;
 
 public class MessageSender {
     // private SmsService smsService;

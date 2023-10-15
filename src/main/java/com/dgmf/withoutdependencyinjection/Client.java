@@ -1,7 +1,4 @@
-package com.dgmf.withoutspringdependencyinjection;
-
-import com.dgmf.withoutspringdependencyinjection.impl.EmailServiceImpl;
-import com.dgmf.withoutspringdependencyinjection.impl.SmsServiceImpl;
+package com.dgmf.withoutdependencyinjection;
 
 public class Client {
     public static void main(String[] args) {

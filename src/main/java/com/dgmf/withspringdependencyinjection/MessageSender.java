@@ -10,7 +10,7 @@ public class MessageSender {
     private MessageService messageService;
     private MessageService smsService;
 
-    // @Autowired // Constructor-based Dependency Injection
+    /*// @Autowired // Constructor-based Dependency Injection
     public MessageSender(
             @Qualifier("emailService") MessageService messageService) {
         this.messageService = messageService;
@@ -27,6 +27,22 @@ public class MessageSender {
         this.smsService = smsService;
 
         System.out.println("Constructor-based Dependency Injection 2");
+    }*/
+
+    @Autowired
+    public void setMessageService(
+            @Qualifier("emailService") MessageService messageService
+        ) {
+        this.messageService = messageService;
+
+        System.out.println("Setter-based Dependency Injection 1");
+    }
+
+    @Autowired
+    public void setSmsService(MessageService smsService) {
+        this.smsService = smsService;
+
+        System.out.println("Setter-based Dependency Injection 2");
     }
 
     public void sendMessage(String message) {

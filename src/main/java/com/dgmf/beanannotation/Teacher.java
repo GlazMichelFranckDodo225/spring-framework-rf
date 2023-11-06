@@ -1,4 +1,4 @@
-package com.dgmf.beans;
+package com.dgmf.beanannotation;
 
 public class Teacher {
     private Address address;

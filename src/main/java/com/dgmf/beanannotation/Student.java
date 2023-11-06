@@ -1,4 +1,4 @@
-package com.dgmf.beans;
+package com.dgmf.beanannotation;
 
 public class Student {
     private Address address;
@@ -10,5 +10,13 @@ public class Student {
     public void print() {
         System.out.println("Student Class Method called ...");
         // address.print();
+    }
+
+    public void init() {
+        System.out.println("Initialization Logic ...");
+    }
+
+    public void destroy() {
+        System.out.println("Destruction Logic ...");
     }
 }

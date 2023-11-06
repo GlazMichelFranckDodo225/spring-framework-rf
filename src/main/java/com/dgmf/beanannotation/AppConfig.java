@@ -1,4 +1,4 @@
-package com.dgmf.beans;
+package com.dgmf.beanannotation;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +10,11 @@ public class AppConfig {
         return new Address();
     }
 
-    @Bean(name = "studentBean")
+    @Bean(
+            name = "studentBean",
+            initMethod = "init", // "init" ==> Name of the Method to call
+            destroyMethod = "destroy" // "destroy" ==> Name of the Method to call
+    )
     public Student student() {
         return new Student(address());
     }

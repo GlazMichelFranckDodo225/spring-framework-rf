@@ -1,4 +1,4 @@
-package com.dgmf.assignment;
+package com.dgmf.assignment.annotationbasedconfig;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

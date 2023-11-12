@@ -1,4 +1,4 @@
-package com.dgmf.assignment;
+package com.dgmf.assignment.annotationbasedconfig;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

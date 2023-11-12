@@ -1,6 +1,5 @@
-package com.dgmf.assignment;
+package com.dgmf.assignment.annotationbasedconfig;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
